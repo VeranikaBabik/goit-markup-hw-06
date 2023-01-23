@@ -114,12 +114,18 @@
                         class="form-input comment"
                         type="text"
                         placeholder="Wprowadź tekst"
+                        name="usercomment"
                       ></textarea>
                     </label>
                   </div>
                   <div class="form-field-agreement">
-                    <input class="check-input" type="checkbox" id="agreement" />
-                    <label for="agreement"
+                    <input
+                      class="check-input"
+                      type="checkbox"
+                      id="agreement"
+                      name="useragreement"
+                    />
+                    <label class="check-label" for="agreement"
                       >Oświadczam iż akceptuję
                       <span class="statute">Regulamin</span> i
                       <span class="statute">Politykę Prywatności.</span>
@@ -441,7 +447,7 @@
               <input
                 class="subscribe"
                 type="email"
-                name="email"
+                name="signupemail"
                 placeholder="E-mail"
               />
               <button class="button-footer" type="submit">
