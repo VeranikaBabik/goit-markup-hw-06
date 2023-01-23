@@ -208,6 +208,7 @@ h1 {
 }
 .form-input:focus {
   border-color: var(--color-mark);
+  outline: none;
 }
 .form-caption {
   display: block;
