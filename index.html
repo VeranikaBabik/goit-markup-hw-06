@@ -30,7 +30,9 @@
               <nav>
                 <ul class="main-menu">
                   <li>
-                    <a class="menu-nav first" href="./index.html">Agencja</a>
+                    <a class="menu-nav is-active" href="./index.html"
+                      >Agencja</a
+                    >
                   </li>
                   <li>
                     <a class="menu-nav" href="./portfolio.html">Portfolio</a>
@@ -71,11 +73,63 @@
           </button>
           <div class="modal is-hidden" data-modal>
             <div class="window">
-              <button class="window-end" data-modal-close>
+              <button type="button" class="window-end" data-modal-close>
                 <svg width="11" height="11">
                   <use href="./images/icons.svg#icon-close"></use>
                 </svg>
               </button>
+              <div>
+                <b class="form-caption"
+                  >Zostaw swoje dane w formularzu poniżej</b
+                >
+                <form class="sign-up-form" name="sign-up-name">
+                  <div class="form-field">
+                    <label class="form-label"
+                      >Imie
+                      <svg class="form-icon" width="12" height="12">
+                        <use href="./images/icons.svg#icon-person-send"></use>
+                      </svg>
+                      <input class="form-input" type="text" name="username"
+                    /></label>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label"
+                      >Telefon<svg class="form-icon" width="13" height="13">
+                        <use href="./images/icons.svg#icon-phone-send"></use>
+                      </svg>
+                      <input class="form-input" type="tel" name="userphone"
+                    /></label>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label"
+                      >Email<svg class="form-icon" width="15" height="12">
+                        <use href="./images/icons.svg#icon-email-send"></use>
+                      </svg>
+                      <input class="form-input" type="email" name="useremail"
+                    /></label>
+                  </div>
+                  <div class="form-field">
+                    <label class="form-label"
+                      >Komentarz<textarea
+                        class="form-input comment"
+                        type="text"
+                        placeholder="Wprowadź tekst"
+                      ></textarea>
+                    </label>
+                  </div>
+                  <div class="form-field-agreement">
+                    <input class="check-input" type="checkbox" id="agreement" />
+                    <label for="agreement"
+                      >Oświadczam iż akceptuję
+                      <span class="statute">Regulamin</span> i
+                      <span class="statute">Politykę Prywatności.</span>
+                    </label>
+                  </div>
+                  <div>
+                    <button class="button-sign-up" type="submit">Wyślij</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
@@ -176,22 +230,22 @@
                 <p class="job">Product Designer</p>
                 <div class="links">
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </div>
@@ -211,22 +265,22 @@
                 <p class="job">Frontend Developer</p>
                 <div class="links">
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </div>
@@ -245,22 +299,22 @@
                 <p class="job">Marketing</p>
                 <div class="links">
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </div>
@@ -279,22 +333,22 @@
                 <p class="job">UI Designer</p>
                 <div class="links">
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </div>
                   <div class="link">
-                    <svg width="20" heigh="20">
+                    <svg width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </div>
@@ -309,32 +363,32 @@
           <h2>Nasi klienci</h2>
           <div class="clients">
             <div class="client">
-              <svg width="106" heigh="60">
+              <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo-1"></use>
               </svg>
             </div>
             <div class="client">
-              <svg width="106" heigh="">
+              <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo-2"></use>
               </svg>
             </div>
             <div class="client">
-              <svg width="106" heigh="60">
+              <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo-3"></use>
               </svg>
             </div>
             <div class="client">
-              <svg width="106" heigh="60">
+              <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo-4"></use>
               </svg>
             </div>
             <div class="client">
-              <svg width="106" heigh="60">
+              <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo-5"></use>
               </svg>
             </div>
             <div class="client">
-              <svg width="106" heigh="60">
+              <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-Logo-6"></use>
               </svg>
             </div>
@@ -357,29 +411,46 @@
             </address>
           </div>
           <div class="social">
-            <p><span class="card">DOŁĄCZ DO NAS</span></p>
+            <p class="card">DOŁĄCZ DO NAS</p>
             <div class="links">
               <div class="social-link">
-                <svg width="20" heigh="20">
+                <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </div>
               <div class="social-link">
-                <svg width="20" heigh="20">
+                <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </div>
               <div class="social-link">
-                <svg width="20" heigh="20">
+                <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </div>
               <div class="social-link">
-                <svg width="20" heigh="20">
+                <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </div>
             </div>
+          </div>
+          <div class="email-input">
+            <p class="email-input-text">ZAPISZ SIĘ DO NEWSLETTERA</p>
+            <form name="signup-form">
+              <input
+                class="subscribe"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+              <button class="button-footer" type="submit">
+                Zapisz się
+                <svg class="icon-send" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </section>
       </div>
